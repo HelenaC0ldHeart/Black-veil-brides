@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+html {
+  height: 100%;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px red, 0 0 12px orangered, 0 0 20px yellow;
+    border-radius: 10px;
+  }
+
+
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b300;
+    border-radius: 20px;
+    border-width: 20px;
+    box-shadow: 0 0 12px yellow, 0 0 20px orangered, 0 0 30px red;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b300; 
+  }
+
+
+/* Header */
+
+.imageHeader {
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/images/BVB_COVER_DEF.jpg);
+  background-size: 100% 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  display: block;
+  height: 200px;
+
+}
+
+
+
+  /* Menu bar*/
+
+  .ul-menuBar {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.ul-menuBar li {
+    display: inline-flex;
+}
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff76e;
+    margin: 15px;
+    text-shadow: 4px 4px 8px red;
+}
+

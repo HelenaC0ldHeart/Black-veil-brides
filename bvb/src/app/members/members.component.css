@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.secondText {
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomText {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* body section */
+
+#container {
+    min-height: 100%;
+  }
+  
+  #main {
+    overflow: auto;
+    padding-bottom: 100px;
+  }
+
+.bandMembers {
+    margin-top: 50px;
+    color: #fff76e;
+    text-align: center;
+    text-shadow: 4px 4px 8px red;
+}
+
+
+/* Card Section */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background-color: #ffd1dc;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px red;
+    width: 400px;
+}
+
+.mediaAndy {
+    background: url(../members/images/andy_sixx2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+
+.mediaJinxx {
+    background: url(../members/images/jinxx1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+
+.mediaJake {
+    background: url(../members/images/jakepitts.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;   
+}
+
+.mediaCC {
+
+    background: url(../members/images/CC.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+
+}
+
+.mediaLonny {
+    background: url(../members/images/lonny2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+
+.topCard {
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.bottomCard {
+    padding: 20px
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: purple;
+}
